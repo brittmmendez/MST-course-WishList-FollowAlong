@@ -1,0 +1,24 @@
+{
+  "name": "wishlist",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "add": "^2.0.6",
+    "and": "0.0.3",
+    "json-server": "^0.12.2",
+    "mobx": "^3.3.1",
+    "mobx-react": "^4.3.4",
+    "mobx-state-tree": "^1.1.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.17",
+    "yarn": "^1.9.4"
+  },
+  "scripts": {
+    "startdb": "json-server --port 3001 --watch --delay 1000 db.json",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

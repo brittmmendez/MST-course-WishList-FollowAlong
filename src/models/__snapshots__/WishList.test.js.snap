@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can add an item to a WishList -2 1`] = `
+Array [
+  Object {
+    "op": "add",
+    "path": "/items/0",
+    "value": Object {
+      "image": "",
+      "name": "Twilight Box Set",
+      "price": 28.75,
+    },
+  },
+  Object {
+    "op": "replace",
+    "path": "/items/0/name",
+    "value": "It's Changed!",
+  },
+]
+`;
+
+exports[`can add an item to a WishList 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "image": "",
+      "name": "It's Changed!",
+      "price": 28.75,
+    },
+  ],
+}
+`;
+
+exports[`can add an item to a WishList 2`] = `
+Array [
+  Object {
+    "items": Array [
+      Object {
+        "image": "",
+        "name": "Twilight Box Set",
+        "price": 28.75,
+      },
+    ],
+  },
+  Object {
+    "items": Array [
+      Object {
+        "image": "",
+        "name": "It's Changed!",
+        "price": 28.75,
+      },
+    ],
+  },
+]
+`;
